@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+     <div id="cabecera">
+        <h1> Practicas de Css </h1>
+    </div>
+    
+    <div id="menu">
+        <a href="index.html" class="item_menu">Inicio</a>
+        <a href="Practicas.html" class="item_menu">Practicas</a>
+        <a href="Textos.html" class="item_menu">Textos</a>
+        <a href="Degradados.html" class="item_menu">Degradados</a>
+        <a href="Animaciones.html" class="item_menu">Animaciones</a>
+        <a href="tabla.html" class="item_menu">Tabla</a>
+        <a href="flex.html" class="item_menu">flex</a>
+        <a href="selectores.html" class="item_menu">Selectores</a>
+        <a href="margenes.html" class="item_menu">Margenes</a>
+        <a href="Atributo.html" class="item_menu">Atributo</a>
+        <a href="Etiqueta.html" class="item_menu">Etiqueta</a>
+        <a href="Imagenes.html" class="item_menu">Imagenes</a>
+
+        <div class="dropdown">
+            <a class="item_menu">Fondos</a>
+            <div class="dropdown-content">
+                <a href="FondoColor.html">Fondo Color</a>
+                <a href="FondoImagen.html">Fondo Imagen</a>
+                <a href="FondoFijo.html">Fondo Fijo</a>
+            </div>
+        </div>
+    </div>  
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>tabla</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+}
+
+.col1 {
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Times New Roman", serif;
+  padding-right: 10px;
+}
+
+.col2 input {
+  width: 300px;
+  height: 30px;
+  padding: 5px;
+  margin: 5px 0;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: Arial;
+}
+
+#nombre {
+  color: blue;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Arial;
+}
+
+.boton {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.enviar {
+  background-color: green;
+}
+
+.borrar {
+  background-color: red;
+}
+
+.enviar:hover {
+  background-color: #3cff3c;
+  color: black;
+}
+
+.borrar:hover {
+  background-color: #ff6666;
+  color: black;
+}
+
+.descripcion {
+  border: 1px solid black;
+  width: 150px;
+  padding: 5px;
+  font-size: 14px;
+  margin-left: 30px;
+  color: blue;
+}
+
+.contenedor {
+  display: flex;
+  align-items: flex-start;
+}
+
+.titulo {
+  color: blue;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.texto {
+  color: blue;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.flecha {
+  color: blue;
+  font-size: 18px;
+}
+</style>
+</head>
+<body>
+
+<div class="titulo">
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>tabla</title>
+<style>
+  body {
+    font-family: serif;
+    font-size: 20px;
+  }
+
+  label {
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 15px;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  input[type="email"] {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    width: 300px;
+    font-size: 18px;
+  }
+
+  /* Nombre en azul y negrita */
+  #nombre {
+    color: blue;
+    font-weight: bold;
+  }
+
+  button {
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 14px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  #enviar {
+    background-color: green;
+  }
+
+  #borrar {
+    background-color: red;
+  }
+</style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>tabla</title>
+<style>
+  body {
+    font-family: serif;
+    font-size: 20px;
+  }
+
+  label {
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 15px;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  input[type="email"] {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    width: 300px;
+    font-size: 14px;
+    color: blue;
+    font-weight: bold;
+  }
+
+  button {
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 14px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  #enviar {
+    background-color: green;
+  }
+
+  #borrar {
+    background-color: red;
+  }
+</style>
+</head>
+<body>
+  <form>
+    <label>Nombre</label>
+    <input type="text"><br>
+
+    <label>Edad</label>
+    <input type="number"><br>
+
+    <label>Correo</label>
+    <input type="email"><br><br>
+
+    <button type="submit" id="enviar">Enviar</button>
+    <button type="reset" id="borrar">Borrar</button>
+  </form>
+</body>
+</html>
+    <div id="footer">
+        Genesis Huila ® <br>
+        Curso Quinto <br>
+        © UTELVT2025 
+    </div>
+    
+</body>
+</html>
